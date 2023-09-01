@@ -19,11 +19,6 @@ python detect.py --weight yolov5n-int8.tflite --img 416 --source data/images/bus
 python detect.py --weight yolov5n-int8.tflite --img 416 --source data/images/elephant.mp4
 ```
 
-### More details can be get from
-
-https://github.com/ultralytics/yolov5
-
-
 
 
     
