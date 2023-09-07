@@ -1,29 +1,5 @@
-
-## Installation
-
-```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
-pip install -r requirements.txt  # install
-```
-## Copy yolov5n-int8.tflite from this repository into yolov5 folder and paste it
-
-## Inference with detect.py for images
-
-```bash
-python detect.py --weight yolov5n-int8.tflite --img 416 --source data/images/bus.jpg
-```
-## Inference with detect.py for video
-
-```bash
-python detect.py --weight yolov5n-int8.tflite --img 416 --source data/images/elephant.mp4
-```
-
-
-
-    
-## Appendix
-
-Any additional information goes here
-
-https://github.com/ultralytics/yolov5
+## Train your Own Model
+If you don't want to install anything on your system then use this Google Colab (Recommended).
+<a target="_blank" href="https://colab.research.google.com/github/KasunThushara/yoloV5n_RPI/blob/main/yolov5_reTerminal.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
